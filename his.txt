@@ -1,0 +1,500 @@
+   43  vim server.pid 
+   44  cd ..
+   45  cd ..
+   46  rails server -p 3001
+   47  rails server -p 3002
+   48  rails server -p 3002
+   49  rails server 
+   50  kill -INT $(cat tmp/pids/server.pid)
+   51  cd tmp/pids
+   52  cat server.pid 
+   53  cd ..
+   54  cd ..
+   55  kill -9 $(cat tmp/pids/server.pid)
+   56  cd tmp/pids
+   57  LS
+   58  ls
+   59  cat server.pid 
+   60  cd ..
+   61  cd ..
+   62  cd ..
+   63  cd first_app/
+   64  rails server 
+   65  cd ~/rails_projects
+   66  rails new demo_app
+   67  cd demo_app/
+   68  bundle install --without production
+   69  bundle update
+   70  bundle install
+   71  vim .gitignore 
+   72  git init
+   73  git add .
+   74  git commit -m "Initial commit"
+   75  rails generate scaffold User name:string email:string
+   76  bundle exec rake db:migrate
+   77  rails s
+   78  cd ..
+   79  cd ..
+   80  cd ..
+   81  cd app/
+   82  cd models/
+   83  vim user.rb 
+   84  rails g controller Greetings hello
+   85  cd app
+   86  cd controllers/
+   87  ls
+   88  vim greetings_controller.rb 
+   89  cd ..
+   90  cd views/
+   91  cd greetings/
+   92  vim hello.html.erb 
+   93  vim hello.html.erb 
+   94  vim hello.html.erb 
+   95  vim hello.html.erb 
+   96  vim hello.html.erb 
+   97  vim hello.html.erb 
+   98  vim hello.html.erb 
+   99  vim hello.html.erb 
+  100  vim hello.html.erb 
+  101  rails server -p 4000
+  102  cd ..
+  103  cd ..
+  104  cd ..
+  105  cd ..
+  106  rails new LoginApp
+  107  cd LoginApp/
+  108  ls
+  109  cd db/
+  110  ls
+  111  cat seeds.rb 
+  112  cd ..
+  113  rails generate scaffold User username:string password:string email:string 
+  114  cd app/views/
+  115  ls
+  116  cd layouts/
+  117  ls
+  118  vim application.html.erb 
+  119  cd ..
+  120  cd ..
+  121  cd ..
+  122  cd db/
+  123  ls
+  124  cd migrate/
+  125  ls
+  126  cat 20140629000657_create_users.rb 
+  127  cd .. 
+  128  cd ..
+  129  cd app/
+  130  cd models/
+  131  ls
+  132  cat user.rb 
+  133  cd ..
+  134  cd controllers/
+  135  ls
+  136  cat users_controller.rb 
+  137  pwd
+  138  cd ..
+  139  cd ..
+  140  cd ..
+  141  cd hello_world/
+  142  cd app/
+  143  cd views/
+  144  ls
+  145  cd greetings/
+  146  ls
+  147  cd ..
+  148  cd layouts/
+  149  ls
+  150  vim application.html.erb 
+  151  cd rails_projects/
+  152  ls
+  153  cd demo_app/
+  154  ls
+  155  cd app
+  156  ls
+  157  cd ..
+  158  ls
+  159  cd config
+  160  ls
+  161  cat routes.rb 
+  162  irb
+  163  cd ..
+  164  cd ..
+  165  rails new hello_world
+  166  rails s -p 4000
+  167  cd hello_world/
+  168  rails s -p 4000
+  169  cd app/
+  170  cd models/
+  171  ls
+  172  rails generate model User name:string password:string
+  173  ls
+  174  cat user.rb 
+  175  vim user.rb 
+  176  vim user.rb 
+  177  rails console
+  178  cd ..
+  179  ls
+  180  cd models/
+  181  ls
+  182  cd ..
+  183  cd controllers/
+  184  ls
+  185  cd ..
+  186  bundle exec rake db:rollback
+  187  rails destroy model User
+  188  cd models/
+  189  ls
+  190  cd ..
+  191  rails generate scaffold User username:string password:string email:string 
+  192  cd models/
+  193  ls
+  194  cd ..
+  195  cd views/
+  196  ls
+  197  cat users/
+  198  cd users/
+  199  ls
+  200  cd ..
+  201  cd ..
+  202  ls
+  203  cd models/
+  204  ls
+  205  vim user.rb 
+  206  vim user.rb 
+  207  rails generate migration Users
+  208  ls
+  209  cd ..
+  210  ls
+  211  cd ..
+  212  ls
+  213  cd db/
+  214  ls
+  215  cd migrate/
+  216  ls
+  217  vim 20140628222455_users.rb 
+  218  vim 20140628221149_create_users.rb 
+  219  cd ..
+  220  cd ..
+  221  cd app/
+  222  bundle exec rake db:rollback
+  223  rails destroy model User
+  224  rails new User_Auth -d mysql
+  225  rails g model user
+  226  rails g controller users new
+  227  rails generate migration Users
+  228  cd ..
+  229  cd db/migrate/
+  230  ls
+  231  vim 20140628223552_create_users.rb 
+  232  cd ..
+  233  cd ..
+  234  bundle exec rake db:rollback
+  235  rails destroy model User
+  236  rails g model user username:string password:string email:string age:integer
+  237  cd app/models/
+  238  ls
+  239  vim user.rb 
+  240  rails generate migration Users
+  241  cd ..
+  242  cd ..
+  243  cd db/migrate/
+  244  cat 20140628224104_create_users.rb 
+  245  rake --help
+  246  rake db:create
+  247  rake db:migrate
+  248  cd ..
+  249  cd ..
+  250  cd app/controllers/
+  251  ls
+  252  vim users_controller.rb 
+  253  cd ..
+  254  cd views/
+  255  ls
+  256  cd layouts/
+  257  ls
+  258  vim application.html.erb 
+  259  rails s -p 4000
+  260  cd ..
+  261  ls
+  262  cd users/
+  263  ls
+  264  cd ..
+  265  cd greetings/
+  266  ls
+  267  vim hello.html.erb 
+  268  cd ..
+  269  cd layouts/
+  270  ls
+  271  vim application.html.erb 
+  272  rails s -p 4000
+  273  rails s -p 3000
+  274  cd ..
+  275  cd ..
+  276  cd ..
+  277  cd ..
+  278  ls
+  279  cd LoginApp/
+  280  ls
+  281  cd app/
+  282  ls
+  283  cd controllers/
+  284  ls
+  285  cat users_controller.rb 
+  286  rails s -p 3000
+  287  rails s -p 5000
+  288  cd ..
+  289  cd ..
+  290  cd ..
+  291  cd hello_world/
+  292  rails s -p 5000
+  293  rails s -p 3000
+  294  rails s -p 3000
+  295  rails s -p 3000
+  296  cd rails_projects/
+  297  ls
+  298  cd hello_world/
+  299  ls
+  300  cd db/
+  301  ls
+  302  m
+  303  s
+  304  mysql
+  305  rake db:data:dump
+  306  ls
+  307  cd ..
+  308  cd ..
+  309  rails new trail_app
+  310  cd trail_app/
+  311  ls
+  312  bundle install --without production
+  313  bundle update
+  314  bundle install
+  315  vim .gitignore 
+  316  git init
+  317  git add .
+  318  git commit -m "initial commit"
+  319  rails generate scaffold User name:string email:string
+  320  bundle exec rake db:migrate
+  321  rails s
+  322  cd ..
+  323  rails new user_auth
+  324  cd user_auth/
+  325  bundle install --without production
+  326  bundle update
+  327  bundle install
+  328  vim .gitignore 
+  329  git init
+  330  git add .
+  331  git commit -m "Initial commit"
+  332  rails generate scaffold User username:string password:string email:string
+  333  bundle exec rake db:migrate
+  334  rails s
+  335  gem install bcrypt-ruby
+  336  rails s
+  337  bundle install
+  338  rails s
+  339  rails generate migration addSaltToUsers salt:string
+  340  run rake db:migrate
+  341  rake db:migrate
+  342  rails s
+  343  rails generate migration addEncrypted_passToUsers encrypted_pass:string
+  344  rake db:migrate
+  345  rails s
+  346  rails s
+  347  rails generate controller Pages login
+  348  rails s
+  349  rails generate controller loginPage
+  350  rails s
+  351  rails s
+  352  rails s -4000
+  353  rails s 4000
+  354  rails s -p 5000
+  355  history
+  356  kill -9 $(cat tmp/pids/server.pid)
+  357  rails s -p 5000
+  358  rake routes
+  359  rails s
+  360  rails s
+  361  rails s
+  362  cd ..
+  363  cd user_auth/
+  364  ls
+  365  cd app
+  366  ls
+  367  cd models/
+  368  ls
+  369  cd ..
+  370  cd ..
+  371  cd ..
+  372  cd sample_app/
+  373  ls
+  374  cd app/controllers/
+  375  ls
+  376  cat application_controller.rb 
+  377  get add .
+  378  git add .
+  379  git commit -m "add a staticpages controller"
+  380  cd ..
+  381  cd sample_app/
+  382  rails s
+  383  git add .
+  384  rails generate model User name:string email:string
+  385  bundle exec rake db:migrate
+  386  bundle exec rake db:rollback
+  387  bundle exec rake db:migrate
+  388  cd Documents
+  389  cd ..
+  390  cd rails_projects/
+  391  ls
+  392  cd user_auth/
+  393  ls
+  394  rails generate controller StaticPages home help --no-test-framework
+  395  rails s
+  396  cd ..
+  397  rails new sample_app --skip-test-unit
+  398  c
+  399  cd sample_app/
+  400  ls
+  401  vim Gemfile
+  402  bundle install --without production
+  403  bundle update
+  404  bundle install
+  405  vim .gitignore 
+  406  cd config/initializers/
+  407  ls
+  408  vim secret_token.rb 
+  409  rails generate rspec:install
+  410  git init
+  411  git add .
+  412  git commit -m "Initial commit"
+  413  cd ..
+  414  cd ..
+  415  vim README.rdoc 
+  416  git checkout -b static-pages
+  417  rails generate controller StaticPages home help --no-test-framework
+  418  rails s
+  419  rails generate integration_test static_pages
+  420  cd spec/requests/
+  421  vim static_pages_spec.rb 
+  422  cd ..
+  423  vim spec_helper.rb 
+  424  bundle exec rspec spec/requests/static_pages_spec.rb
+  425  bundle exec rspec spec/requests/static_pages_spec.rb
+  426  cd ..
+  427  bundle exec rspec spec/requests/static_pages_spec.rb 
+  428  vim app/views/static_pages/home.html.erb 
+  429  vim app/views/static_pages/home.html.erb 
+  430  bundle exec rspec spec/requests/static_pages_spec.rb 
+  431  bundle exec rspec spec/requests/static_pages_spec.rb 
+  432  vim app/views/static_pages/help.html.erb 
+  433  bundle exec rspec spec/requests/static_pages_spec.rb 
+  434  vim app/views/static_pages/help.html.erb 
+  435  bundle exec rspec spec/requests/static_pages_spec.rb 
+  436  bundle exec rspec spec/requests/static_pages_spec.rb 
+  437  bundle exec rspec spec/requests/static_pages_spec.rb 
+  438  bundle exec rspec spec/requests/static_pages_spec.rb 
+  439  mv app/views/layouts/application.html.erb foobar  #temporary change
+  440  bundle exec rspec spec/requests/static_pages_spec.rb 
+  441  bundle exec rspec spec/requests/static_pages_spec.rb 
+  442  mv foobar app/views/layouts/application.html.erb
+  443  bundle exec rspec spec/requests/static_pages_spec.rb 
+  444  bundle exec rspec spec/requests/static_pages_spec.rb 
+  445  bundle exec rspec spec/requests/static_pages_spec.rb 
+  446  git checkout -b filling-in-layout
+  447  cd ..
+  448  git checkout -b filling-in-layout
+  449  rails s
+  450  cd sample_app/
+  451  rails s
+  452  ls
+  453  vim Gemfile
+  454  bundle install
+  455  vim Gemfile
+  456  bundle install
+  457  vim Gemfile
+  458  bundle install
+  459  bundle update sprockets
+  460  vim app/assets/stylesheets/custom.css.scss
+  461  rails s
+  462  vim app/assets/stylesheets/custom.css.scss
+  463  rails s
+  464  vim app/views/layouts/_shim.html.erb
+  465  vim app/views/layouts/_header.html.erb
+  466  vim app/views/layouts/_header.html.erb
+  467  vim app/views/layouts/_footer.html.erb
+  468  rails s
+  469  bundle exec rspec spec/requests/static_pages_spec.rb 
+  470  bundle exec rspec spec/requests/static_pages_spec.rb 
+  471  rails s
+  472  mkdir spec/support
+  473  vim spec/support/utilities.rb
+  474  rails generate controller Users new --no-test-framework
+  475  cd app/controllers/users_controller.rb 
+  476  vim app/controllers/users_controller.rb 
+  477  vim app/views/users/new.html.erb 
+  478  rails generate integration_test user_pages
+  479  bundle exec rspec spec/requests/static_pages_spec.rb 
+  480  bundle exec rspec spec/requests/
+  481  bundle exec rspec spec/
+  482  vim app/views/users/new.html.erb 
+  483  rails s
+  484  cd db/
+  485  ls
+  486  cd migrate/
+  487  ls
+  488  cat 20140705012029_create_users.rb 
+  489  ls
+  490  cat 20140705012029_create_users.rb 
+  491  cd ..
+  492  cd ..
+  493  bundle exec rspec spec/requests/static_pages_spec.rb 
+  494  bundle exec rspec spec/requests/static_pages_spec.rb 
+  495  rails console
+  496  ping www.google.com
+  497  nslookup
+  498  exit
+  499  s
+  500  ls
+  501  cd rails_projects/
+  502  ls
+  503  rails new sample_app --skip-test-unit
+  504  cd sample_app/
+  505  cd ..
+  506  cd ..
+  507  ls
+  508  cd rails_projects/
+  509  ls
+  510  cd ..
+  511  mkdir rails_projects2
+  512  cd rails_projects2/
+  513  rails new sample_app --skip-test-unit
+  514  cd sample_app/
+  515  ls
+  516  ls Gemfile
+  517  cat Gemfile
+  518  bundle install --without production
+  519  bundle update
+  520  bundle install
+  521  car .gitignore 
+  522  cat .gitignore 
+  523  vi .gitignore 
+  524  ls
+  525  cd app/
+  526  ls
+  527  cd ..
+  528  cd config/initializers/
+  529  ls
+  530  cat secret_token.rb 
+  531  rails generate rspec:install
+  532  git init
+  533  cd ..
+  534  cd ..
+  535  git add .
+  536  git init
+  537  git add .
+  538  git commit -m "Initial commit"
+  539  vi README.rdoc 
+  540  git mv README.rdoc README.md
+  541  git commit -am "Improve the README"
+  542  history > his.txt
